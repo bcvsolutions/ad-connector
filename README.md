@@ -1,34 +1,24 @@
 ConnIdADBundle - BCV solutions fork
 ==============
 
-THIS IS FOR OF THE TIRASA CONNID AD CONNECTOR v1.3.4
-
-The Active Directory bundle (JNDI implementation) is part of the [ConnId](http://connid.tirasa.net) project.
-
-<a href="https://travis-ci.org/Tirasa/ConnIdADBundle"><img src="https://api.travis-ci.org/Tirasa/ConnIdADBundle.png"/></a> 
-<a href="https://maven-badges.herokuapp.com/maven-central/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ad">
-  <img src="https://maven-badges.herokuapp.com/maven-central/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ad/badge.svg"/>
-</a>
-
-## How to get it
+This connector is forked from the Tirasa ConnId AD Connector v1.3.4.
+The original implementation is part of the [ConnId](http://connid.tirasa.net) project.
 
 ### Maven
 
-```XML
+Add the following to your `pom.xml`:
+```xml
 <dependency>
-  <groupId>net.tirasa.connid.bundles</groupId>
-  <artifactId>net.tirasa.connid.bundles.ad</artifactId>
-  <version>${connid.ad.version}</version>
+  <groupId>eu.bcvsolutions.idm.connector.ad</groupId>
+  <artifactId>ad-connector</artifactId>
+  <version>1.3.4.29</version>
 </dependency>
+
+...
+
+<repository>
+  <id>nexus</id>
+  <name>BCV Nexus public releases repo</name>
+  <url>https://nexus.bcvsolutions.eu/repository/maven-public-releases/</url>
+</repository>
 ```
-
-where `connid.ad.version` is one of [available](http://repo1.maven.org/maven2/net/tirasa/connid/bundles/net.tirasa.connid.bundles.ad/).
-
-### Downloads
-
-Available from [releases](https://github.com/Tirasa/ConnIdADBundle/releases).
-
-## Project information
-
- * [wiki](https://connid.atlassian.net/wiki/pages/viewpage.action?pageId=360482)
- * [issues](https://connid.atlassian.net/browse/AD)
