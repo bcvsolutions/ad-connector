@@ -278,8 +278,8 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <name>Nexus Staging repo</name>
-      <url>https://nexus.bcvsolutions.eu/repository/maven-releases/</url>
+      <name>Nexus public releases repo</name>
+      <url>https://nexus.bcvsolutions.eu/repository/maven-public-releases/</url>
     </repository>
   </distributionManagement>
 
@@ -305,13 +305,5 @@
       </snapshots>
     </repository>
   </repositories>
-
-  <distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<name>Nexus public releases repo</name>
-			<url>https://nexus.bcvsolutions.eu/repository/maven-public-releases/</url>
-		</repository>
-  </distributionManagement>
 
 </project>
