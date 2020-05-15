@@ -239,7 +239,7 @@
 
   <profiles>
     <profile>
-      <id>it</id>
+      <id>test</id>
       <properties>
       </properties>
       <dependencies>
