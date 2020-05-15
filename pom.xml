@@ -266,6 +266,10 @@
                   <includes>
                     <include>**/*Test.java</include>
                   </includes>
+		  <excludes>
+		    <exclude>**/crud/*Test.java</exclude>
+		    <exclude>**/sync/*Test.java</exclude>
+		  </excludes>
                 </configuration>
               </execution>
             </executions>
