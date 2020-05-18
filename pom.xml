@@ -127,7 +127,11 @@
           </execution>
         </executions>
       </plugin>
-      
+     
+<!-- 
+
+We handle licenses manually for now.
+
       <plugin>
         <groupId>com.mycila</groupId>
         <artifactId>license-maven-plugin</artifactId>
@@ -169,6 +173,7 @@
           </execution>
         </executions>
       </plugin>
+-->
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
