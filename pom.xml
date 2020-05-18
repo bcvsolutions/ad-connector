@@ -287,8 +287,8 @@ We handle licenses manually for now.
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <name>Nexus Staging repo</name>
-      <url>https://nexus.bcvsolutions.eu/repository/maven-releases/</url>
+      <name>BCV Nexus public repo</name>
+      <url>https://nexus.bcvsolutions.eu/repository/maven-public-releases/</url>
     </repository>
   </distributionManagement>
 
