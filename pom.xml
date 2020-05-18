@@ -290,6 +290,11 @@ We handle licenses manually for now.
       <name>BCV Nexus public repo</name>
       <url>https://nexus.bcvsolutions.eu/repository/maven-public-releases/</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <name>BCV Nexus snapshot repo</name>
+      <url>https://nexus.bcvsolutions.eu/repository/maven-snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <repositories>
