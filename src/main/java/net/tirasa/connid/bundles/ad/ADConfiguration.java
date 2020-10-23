@@ -110,7 +110,7 @@ public class ADConfiguration extends LdapConfiguration {
         this.pageSize = pageSize;
     }
 
-    private int pageSize;
+    private int pageSize = 100;
 
     private final ObjectClassMappingConfig accountConfig = new ObjectClassMappingConfig(
             ObjectClass.ACCOUNT,
